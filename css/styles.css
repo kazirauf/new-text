@@ -19,7 +19,7 @@ p{
   color: #828282; 
 
 }
-section{
+.flexibel-containar{
         display: flex;
 
 }
@@ -43,15 +43,53 @@ section{
             
 
 }
-.king{
-      background-image: url(images/shapes/7.png);
-
-
-}
-.fish{
-    padding-left: 40%;
+.mama{
+      padding-left: 40%;
       align-items: center;
-
+      justify-content: center;
+      margin: 0 auto;
 
 }
+.expart-itmes{
+            width: 40%;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding-left: 50px;
+            box-shadow: 10px 10px 40px grey;
+
+}
+.images img{
+           width: 80%;
+
+}
+.tow-images img{
+        width: 80%;
+
+}
+
+.selction_btn {
+     padding: 10px;
+     background: #6ea9c5;
+     font-weight: 700;
+     font-size: 30px;
+     line-height: 40px;
+     text-align: center;
+     color: #010506;
+     border-radius: 10px;
+     border: 1px solid #95d8df;
+ }
+ .take_section {
+     display: flex;
+     justify-content: space-between;
+     margin: 10px 0;
+ }
+ .take_section {
+     display: flex;
+     justify-content: space-between;
+     margin: 10px 0;
+ }
+
+
+
+
 
